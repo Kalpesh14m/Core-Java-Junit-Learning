@@ -17,11 +17,11 @@ import org.junit.runners.Parameterized.Parameters;
 public class ParameterizeTests {
 	private int inputNumber;
 	private boolean result;
-	private Calculator calci;
+	private PrimeNumberChecker check;
 
 	@Before
 	public void initialize() {
-		calci = new Calculator();
+		check = new PrimeNumberChecker();
 	}
 
 	public ParameterizeTests(int inputNumber, boolean result) {
@@ -31,7 +31,7 @@ public class ParameterizeTests {
 
 	@Test
 	public void testPrimeNumber() {
-		assertEquals(result, calci.validatePrime(inputNumber));
+		assertEquals(result, check.validatePrime(inputNumber));
 	}
 
 	@Parameters
