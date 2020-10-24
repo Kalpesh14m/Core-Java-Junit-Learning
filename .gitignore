@@ -1,0 +1,24 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+bin/
+gradle/
+gradlew
+gradlew.bat
+
+
+.attach_pid1003
+.attach_pid16723
+.attach_pid17522
+.attach_pid18119
+.attach_pid7061
+.attach_pid7984
+.attach_pid8826
+.classpath
+.gitattributes
+
+.project
+.settings/
+
